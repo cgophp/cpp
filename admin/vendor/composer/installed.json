@@ -1835,6 +1835,55 @@
                 "source": "https://github.com/top-think/think-view/tree/v1.0.14"
             },
             "install-path": "../topthink/think-view"
+        },
+        {
+            "name": "zoujingli/ip2region",
+            "version": "v2.0.1",
+            "version_normalized": "2.0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zoujingli/ip2region.git",
+                "reference": "b377b1d9181a891b60027e4289efb61bca1d369e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zoujingli/ip2region/zipball/b377b1d9181a891b60027e4289efb61bca1d369e",
+                "reference": "b377b1d9181a891b60027e4289efb61bca1d369e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "time": "2023-01-04T09:41:43+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "classmap": [
+                    "Ip2Region.php",
+                    "XdbSearcher.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Anyon",
+                    "email": "zoujingli@qq.com",
+                    "homepage": "https://thinkadmin.top"
+                }
+            ],
+            "description": "Ip2Region for PHP",
+            "homepage": "https://github.com/zoujingli/Ip2Region",
+            "keywords": [
+                "Ip2Region"
+            ],
+            "support": {
+                "issues": "https://github.com/zoujingli/ip2region/issues",
+                "source": "https://github.com/zoujingli/ip2region/tree/v2.0.1"
+            },
+            "install-path": "../zoujingli/ip2region"
         }
     ],
     "dev": true,
