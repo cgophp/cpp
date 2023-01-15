@@ -20,6 +20,7 @@ class ComposerStaticInit6df9fcd15b04205c5a8d587e1af1f490
         array (
             'think\\view\\driver\\' => 18,
             'think\\trace\\' => 12,
+            'think\\migration\\' => 16,
             'think\\app\\' => 10,
             'think\\' => 6,
         ),
@@ -41,6 +42,7 @@ class ComposerStaticInit6df9fcd15b04205c5a8d587e1af1f490
             'Psr\\Http\\Message\\' => 17,
             'Psr\\Container\\' => 14,
             'Psr\\Cache\\' => 10,
+            'Phinx\\' => 6,
         ),
         'L' => 
         array (
@@ -58,6 +60,10 @@ class ComposerStaticInit6df9fcd15b04205c5a8d587e1af1f490
         'think\\trace\\' => 
         array (
             0 => __DIR__ . '/..' . '/topthink/think-trace/src',
+        ),
+        'think\\migration\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/topthink/think-migration/src',
         ),
         'think\\app\\' => 
         array (
@@ -110,6 +116,10 @@ class ComposerStaticInit6df9fcd15b04205c5a8d587e1af1f490
         'Psr\\Cache\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/cache/src',
+        ),
+        'Phinx\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/topthink/think-migration/phinx/src/Phinx',
         ),
         'League\\MimeTypeDetection\\' => 
         array (

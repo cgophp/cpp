@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d80bd5b0dc1f17311fbdfb7b167aee09",
+    "content-hash": "176ef4e2fe715f4741c1c9a0240d197a",
     "packages": [
         {
             "name": "league/flysystem",
@@ -616,6 +616,60 @@
                 "source": "https://github.com/top-think/think-helper/tree/v3.1.6"
             },
             "time": "2021-12-15T04:27:55+00:00"
+        },
+        {
+            "name": "topthink/think-migration",
+            "version": "v3.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/top-think/think-migration.git",
+                "reference": "c5880669b277762d5ff935e551bc0d5c71de6811"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/top-think/think-migration/zipball/c5880669b277762d5ff935e551bc0d5c71de6811",
+                "reference": "c5880669b277762d5ff935e551bc0d5c71de6811",
+                "shasum": ""
+            },
+            "require": {
+                "topthink/framework": "^6.0",
+                "topthink/think-helper": "^3.0.3"
+            },
+            "require-dev": {
+                "fzaninotto/faker": "^1.8"
+            },
+            "suggest": {
+                "fzaninotto/faker": "Required to use the factory builder (^1.8)."
+            },
+            "type": "library",
+            "extra": {
+                "think": {
+                    "services": [
+                        "think\\migration\\Service"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Phinx\\": "phinx/src/Phinx",
+                    "think\\migration\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "yunwuxin",
+                    "email": "448901948@qq.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/top-think/think-migration/issues",
+                "source": "https://github.com/top-think/think-migration/tree/v3.0.4"
+            },
+            "time": "2022-10-26T07:57:54+00:00"
         },
         {
             "name": "topthink/think-multi-app",
