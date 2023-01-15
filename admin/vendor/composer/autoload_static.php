@@ -25,6 +25,7 @@ class ComposerStaticInit6df9fcd15b04205c5a8d587e1af1f490
             'think\\view\\driver\\' => 18,
             'think\\trace\\' => 12,
             'think\\migration\\' => 16,
+            'think\\middleware\\' => 17,
             'think\\captcha\\' => 14,
             'think\\app\\' => 10,
             'think\\' => 6,
@@ -76,6 +77,10 @@ class ComposerStaticInit6df9fcd15b04205c5a8d587e1af1f490
         'think\\migration\\' => 
         array (
             0 => __DIR__ . '/..' . '/topthink/think-migration/src',
+        ),
+        'think\\middleware\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/topthink/think-throttle/src',
         ),
         'think\\captcha\\' => 
         array (

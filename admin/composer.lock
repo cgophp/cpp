@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "11b50cd2a093db54c7e8318b4ef2a0d0",
+    "content-hash": "394162d99465df6ae6ea6b3d8981a0e4",
     "packages": [
         {
             "name": "league/flysystem",
@@ -1500,6 +1500,54 @@
                 "source": "https://github.com/top-think/think-template/tree/v2.0.8"
             },
             "time": "2020-12-10T07:52:03+00:00"
+        },
+        {
+            "name": "topthink/think-throttle",
+            "version": "v1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/top-think/think-throttle.git",
+                "reference": "c63afa6a66ffdac03e37b1124b5120040ef7cea8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/top-think/think-throttle/zipball/c63afa6a66ffdac03e37b1124b5120040ef7cea8",
+                "reference": "c63afa6a66ffdac03e37b1124b5120040ef7cea8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1.0",
+                "topthink/framework": "^6.0.0"
+            },
+            "type": "library",
+            "extra": {
+                "think": {
+                    "config": {
+                        "throttle": "src/config.php"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "think\\middleware\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "hongweipeng",
+                    "email": "hongweichen8888@sina.com"
+                }
+            ],
+            "description": "throttle middleware for thinkphp6",
+            "support": {
+                "issues": "https://github.com/top-think/think-throttle/issues",
+                "source": "https://github.com/top-think/think-throttle/tree/v1.3.0"
+            },
+            "time": "2021-06-18T03:47:00+00:00"
         },
         {
             "name": "topthink/think-view",
