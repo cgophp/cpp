@@ -14,6 +14,6 @@ composer require topthink/think-captcha
 
 composer require topthink/think-queue
 
-composer require zoujingli/ip2region
+composer require topthink/think-throttle=dev-master
 
-composer require topthink/think-throttle
+composer require zoujingli/ip2region
