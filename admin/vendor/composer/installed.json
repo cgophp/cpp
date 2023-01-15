@@ -988,6 +988,57 @@
             "install-path": "../topthink/think-helper"
         },
         {
+            "name": "topthink/think-multi-app",
+            "version": "v1.0.15",
+            "version_normalized": "1.0.15.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/top-think/think-multi-app.git",
+                "reference": "387e0dac059c20f92cac5da41a871e10829c1c97"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/top-think/think-multi-app/zipball/387e0dac059c20f92cac5da41a871e10829c1c97",
+                "reference": "387e0dac059c20f92cac5da41a871e10829c1c97",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1.0",
+                "topthink/framework": "^6.0"
+            },
+            "time": "2022-10-26T08:03:06+00:00",
+            "type": "library",
+            "extra": {
+                "think": {
+                    "services": [
+                        "think\\app\\Service"
+                    ]
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "think\\app\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "liu21st",
+                    "email": "liu21st@gmail.com"
+                }
+            ],
+            "description": "thinkphp6 multi app support",
+            "support": {
+                "issues": "https://github.com/top-think/think-multi-app/issues",
+                "source": "https://github.com/top-think/think-multi-app/tree/v1.0.15"
+            },
+            "install-path": "../topthink/think-multi-app"
+        },
+        {
             "name": "topthink/think-orm",
             "version": "v2.0.56",
             "version_normalized": "2.0.56.0",
