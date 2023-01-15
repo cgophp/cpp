@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "394162d99465df6ae6ea6b3d8981a0e4",
+    "content-hash": "4dea9972c326fb05c4054bf1e35658bb",
     "packages": [
         {
             "name": "league/flysystem",
@@ -1503,22 +1503,23 @@
         },
         {
             "name": "topthink/think-throttle",
-            "version": "v1.3.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/top-think/think-throttle.git",
-                "reference": "c63afa6a66ffdac03e37b1124b5120040ef7cea8"
+                "reference": "daa5bace5e4844a346af403a0c44d9ce4bf7af06"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/top-think/think-throttle/zipball/c63afa6a66ffdac03e37b1124b5120040ef7cea8",
-                "reference": "c63afa6a66ffdac03e37b1124b5120040ef7cea8",
+                "url": "https://api.github.com/repos/top-think/think-throttle/zipball/daa5bace5e4844a346af403a0c44d9ce4bf7af06",
+                "reference": "daa5bace5e4844a346af403a0c44d9ce4bf7af06",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.1.0",
                 "topthink/framework": "^6.0.0"
             },
+            "default-branch": true,
             "type": "library",
             "extra": {
                 "think": {
@@ -1545,9 +1546,9 @@
             "description": "throttle middleware for thinkphp6",
             "support": {
                 "issues": "https://github.com/top-think/think-throttle/issues",
-                "source": "https://github.com/top-think/think-throttle/tree/v1.3.0"
+                "source": "https://github.com/top-think/think-throttle/tree/master"
             },
-            "time": "2021-06-18T03:47:00+00:00"
+            "time": "2022-08-25T14:35:52+00:00"
         },
         {
             "name": "topthink/think-view",
@@ -1857,7 +1858,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "topthink/think-throttle": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

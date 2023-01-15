@@ -3,7 +3,7 @@
         'name' => 'topthink/think',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '8de0eb661300b12e365a549c2bb14ccbb5238629',
+        'reference' => '470b893b420d856d8583daf3b5f78e63c3249a68',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -181,7 +181,7 @@
         'topthink/think' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '8de0eb661300b12e365a549c2bb14ccbb5238629',
+            'reference' => '470b893b420d856d8583daf3b5f78e63c3249a68',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -260,12 +260,14 @@
             'dev_requirement' => false,
         ),
         'topthink/think-throttle' => array(
-            'pretty_version' => 'v1.3.0',
-            'version' => '1.3.0.0',
-            'reference' => 'c63afa6a66ffdac03e37b1124b5120040ef7cea8',
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => 'daa5bace5e4844a346af403a0c44d9ce4bf7af06',
             'type' => 'library',
             'install_path' => __DIR__ . '/../topthink/think-throttle',
-            'aliases' => array(),
+            'aliases' => array(
+                0 => '9999999-dev',
+            ),
             'dev_requirement' => false,
         ),
         'topthink/think-trace' => array(
