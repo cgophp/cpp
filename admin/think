@@ -1,8 +1,13 @@
 #!/usr/bin/env php
 <?php
-namespace think;
 
 // 命令行入口文件
+
+namespace think;
+
+// 进入当前目录
+chdir(__DIR__);
+
 // 加载基础文件
 require __DIR__ . '/vendor/autoload.php';
 
