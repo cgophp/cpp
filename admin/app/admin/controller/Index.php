@@ -3,6 +3,7 @@
 namespace app\admin\controller;
 
 use app\BaseController;
+use think\facade\Db;
 
 class Index extends BaseController
 {
@@ -14,5 +15,20 @@ class Index extends BaseController
     public function hello($name = 'ThinkPHP6')
     {
         return 'hello,' . $name;
+    }
+
+    public function config()
+    {
+        dump(config());
+    }
+
+    public function db()
+    {
+        $list = Db::table('user')
+            ->select()
+            ->toArray();
+
+        return json($list);
+        //dump($list);
     }
 }
