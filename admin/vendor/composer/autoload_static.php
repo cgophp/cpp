@@ -59,9 +59,21 @@ class ComposerStaticInit6df9fcd15b04205c5a8d587e1af1f490
             'League\\Flysystem\\Cached\\' => 24,
             'League\\Flysystem\\' => 17,
         ),
+        'E' => 
+        array (
+            'Endroid\\QrCode\\' => 15,
+        ),
+        'D' => 
+        array (
+            'DASPRiD\\Enum\\' => 13,
+        ),
         'C' => 
         array (
             'Carbon\\' => 7,
+        ),
+        'B' => 
+        array (
+            'BaconQrCode\\' => 12,
         ),
     );
 
@@ -167,9 +179,21 @@ class ComposerStaticInit6df9fcd15b04205c5a8d587e1af1f490
         array (
             0 => __DIR__ . '/..' . '/league/flysystem/src',
         ),
+        'Endroid\\QrCode\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/endroid/qr-code/src',
+        ),
+        'DASPRiD\\Enum\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/dasprid/enum/src',
+        ),
         'Carbon\\' => 
         array (
             0 => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon',
+        ),
+        'BaconQrCode\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/bacon/bacon-qr-code/src',
         ),
     );
 
