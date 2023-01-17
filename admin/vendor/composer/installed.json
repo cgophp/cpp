@@ -2071,6 +2071,40 @@
             "install-path": "../topthink/think-view"
         },
         {
+            "name": "workerman/gatewayclient",
+            "version": "v3.0.14",
+            "version_normalized": "3.0.14.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/walkor/GatewayClient.git",
+                "reference": "4362468d68251015b2b385c310252afb4d6648ed"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/walkor/GatewayClient/zipball/4362468d68251015b2b385c310252afb4d6648ed",
+                "reference": "4362468d68251015b2b385c310252afb4d6648ed",
+                "shasum": ""
+            },
+            "time": "2021-11-29T07:03:50+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "GatewayClient\\": "./"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "homepage": "http://www.workerman.net",
+            "support": {
+                "issues": "https://github.com/walkor/GatewayClient/issues",
+                "source": "https://github.com/walkor/GatewayClient/tree/v3.0.14"
+            },
+            "install-path": "../workerman/gatewayclient"
+        },
+        {
             "name": "zoujingli/ip2region",
             "version": "v2.0.1",
             "version_normalized": "2.0.1.0",

@@ -31,7 +31,8 @@
         "topthink/think-queue": "^3.0",
         "topthink/think-throttle": "dev-master",
         "zoujingli/ip2region": "^2.0",
-        "endroid/qr-code": "^4.3"
+        "endroid/qr-code": "^4.3",
+        "workerman/gatewayclient": "^3.0"
     },
     "require-dev": {
         "symfony/var-dumper": "^4.2",

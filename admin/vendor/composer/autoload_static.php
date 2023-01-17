@@ -59,6 +59,10 @@ class ComposerStaticInit6df9fcd15b04205c5a8d587e1af1f490
             'League\\Flysystem\\Cached\\' => 24,
             'League\\Flysystem\\' => 17,
         ),
+        'G' => 
+        array (
+            'GatewayClient\\' => 14,
+        ),
         'E' => 
         array (
             'Endroid\\QrCode\\' => 15,
@@ -178,6 +182,10 @@ class ComposerStaticInit6df9fcd15b04205c5a8d587e1af1f490
         'League\\Flysystem\\' => 
         array (
             0 => __DIR__ . '/..' . '/league/flysystem/src',
+        ),
+        'GatewayClient\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/workerman/gatewayclient',
         ),
         'Endroid\\QrCode\\' => 
         array (
