@@ -3,7 +3,7 @@
         'name' => 'topthink/think',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'e3f7761799fb113635cfbf64630e8ae6b5ab3091',
+        'reference' => '387f9bed9333fdb5fac18b06b52769e67015e91e',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -208,7 +208,7 @@
         'topthink/think' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'e3f7761799fb113635cfbf64630e8ae6b5ab3091',
+            'reference' => '387f9bed9333fdb5fac18b06b52769e67015e91e',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
