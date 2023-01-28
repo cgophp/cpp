@@ -3,11 +3,11 @@
         'name' => 'topthink/think',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'd2255ea89c7fba64abdbe4ec9b61dce26dd352b8',
+        'reference' => '567fb2a12040eb80e6c4c704dac5fe9a5337f7c6',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'dev' => true,
+        'dev' => false,
     ),
     'versions' => array(
         'bacon/bacon-qr-code' => array(
@@ -136,15 +136,6 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
-        'symfony/polyfill-php72' => array(
-            'pretty_version' => 'v1.27.0',
-            'version' => '1.27.0.0',
-            'reference' => '869329b1e9894268a8a61dabb69153029b7a8c97',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../symfony/polyfill-php72',
-            'aliases' => array(),
-            'dev_requirement' => true,
-        ),
         'symfony/polyfill-php80' => array(
             'pretty_version' => 'v1.27.0',
             'version' => '1.27.0.0',
@@ -187,15 +178,6 @@
                 0 => '2.3',
             ),
         ),
-        'symfony/var-dumper' => array(
-            'pretty_version' => 'v4.4.47',
-            'version' => '4.4.47.0',
-            'reference' => '1069c7a3fca74578022fab6f81643248d02f8e63',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../symfony/var-dumper',
-            'aliases' => array(),
-            'dev_requirement' => true,
-        ),
         'topthink/framework' => array(
             'pretty_version' => 'v6.1.1',
             'version' => '6.1.1.0',
@@ -208,7 +190,7 @@
         'topthink/think' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'd2255ea89c7fba64abdbe4ec9b61dce26dd352b8',
+            'reference' => '567fb2a12040eb80e6c4c704dac5fe9a5337f7c6',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -296,15 +278,6 @@
                 0 => '9999999-dev',
             ),
             'dev_requirement' => false,
-        ),
-        'topthink/think-trace' => array(
-            'pretty_version' => 'v1.5',
-            'version' => '1.5.0.0',
-            'reference' => '55027fd79abb744f32a3be8d9e1ccf873a3ca9b7',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../topthink/think-trace',
-            'aliases' => array(),
-            'dev_requirement' => true,
         ),
         'topthink/think-view' => array(
             'pretty_version' => 'v1.0.14',
